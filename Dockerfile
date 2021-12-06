@@ -5,7 +5,7 @@
 FROM jupyter/r-notebook:latest
 
 # install the kableExtra package using install.packages
-RUN Rscript -e "install.packages('kableExtra', '1.3.4')"
+RUN Rscript -e "install_version('kableExtra', version = '1.3.4')"
 
 # install knitr
-RUN Rscript -e "install.packages('knitr', '1.36')"
+RUN Rscript -e "install_version('knitr', version = '1.36')"
