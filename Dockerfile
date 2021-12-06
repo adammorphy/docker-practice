@@ -1,3 +1,6 @@
+# Author: Adam Morphy
+# Date: Decemeber 6, 2021
+
 FROM jupyter/r-notebook:latest
 
 # install the kableExtra package using install.packages
